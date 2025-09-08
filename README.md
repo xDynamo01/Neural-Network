@@ -31,10 +31,12 @@ The main goal of this project is to **understand the mathematical and computatio
 ## 📊 Example Results
 
 ### Loss & Accuracy over Training
-![Loss and Accuracy](Figure_1.png)
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/92c37e9c-03b1-4bf9-86eb-0d9737701d14" />
+
 
 ### Decision Boundary
-![Decision Boundary](Figure_2.png)
+<img width="1200" height="500" alt="Figure_2" src="https://github.com/user-attachments/assets/139e1e81-bf0e-417f-b00d-ef82a1df848b" />
+
 
 ---
 
