@@ -1,5 +1,7 @@
 # Neural Network from Scratch 🧠
 
+<img width="1400" height="700" alt="image" src="https://github.com/user-attachments/assets/9b953978-e219-4e23-b07e-cb55016f96f2" />
+
 This repository contains my implementation of a neural network from scratch in Python, inspired by the book **"Neural Networks from Scratch" (NNFS)** by Harrison Kinsley and Daniel Kukieła.
 
 ## 📌 Goal
@@ -24,7 +26,17 @@ The main goal of this project is to **understand the mathematical and computatio
 - Visualization:
  - Loss & accuracy curves
  - Decision boundary plot
+---
 
+## 📊 Example Results
+
+### Loss & Accuracy over Training
+![Loss and Accuracy](Figure_1.png)
+
+### Decision Boundary
+![Decision Boundary](Figure_2.png)
+
+---
 
 ## 🛠️ Technologies
 - **Python 3.10+**
