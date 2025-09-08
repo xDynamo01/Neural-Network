@@ -7,11 +7,24 @@ The main goal of this project is to **understand the mathematical and computatio
 
 ## 🚀 Progress
 - [x] First neuron (simple dense layer)  
-- [ ] Multiple neurons implementation  
-- [ ] Activation functions  
-- [ ] Full forward pass  
-- [ ] Backpropagation  
-- [ ] Training on a real dataset  
+- [x] Multiple neurons implementation  
+- [x] Activation functions  
+- [x] Full forward pass  
+- [x] Backpropagation  
+- [x] Training on a real dataset  
+
+## 🚀 Features
+- Dense (fully connected) layers
+- ReLU and Softmax activation functions
+- Categorical Cross-Entropy loss
+- Backpropagation implementation
+- SGD (Stochastic Gradient Descent) optimizer
+- Training loop with accuracy and loss tracking
+- Model saving and loading with `pickle`
+- Visualization:
+ - Loss & accuracy curves
+ - Decision boundary plot
+
 
 ## 🛠️ Technologies
 - **Python 3.10+**
@@ -19,3 +32,53 @@ The main goal of this project is to **understand the mathematical and computatio
 - **Matplotlib** (for visualization later)
 
 ## 📂 Project Structure
+
+├── main.py # Main implementation
+├── model.pkl # Saved model (generated after training)
+├── Figure_1.png # Loss/Accuracy curves
+├── Figure_2.png # Decision boundary
+└── README.md # Project documentation
+
+---
+
+## ⚡ How to Run
+
+1. Clone the repository:
+
+   git clone https://github.com/yourusername/Neural-Network-From-Scratch.git
+   cd Neural-Network-From-Scratch
+
+
+2.Install dependencies: 
+
+   pip install numpy matplotlib nnfs
+
+3. Run the project:
+
+   python main.py
+
+4. After training, you will see:
+
+   Printed loss and accuracy during epochs
+
+   Two plots (loss/accuracy + decision boundary)
+
+   A saved model file model.pkl
+
+---
+
+## 🎯 Next Steps
+
+Add support for more activation functions (Sigmoid, Tanh, Leaky ReLU)
+
+Implement more advanced optimizers (Adam, RMSProp, Momentum)
+
+Expand dataset experiments beyond the spiral dataset
+
+Build a small framework for experimenting with different architectures
+
+
+## 📚 Acknowledgments
+
+Inspired by the book Neural Networks from Scratch
+ by Harrison Kinsley (Sentdex) and Daniel Kukieła.
